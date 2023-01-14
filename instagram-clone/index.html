@@ -10,46 +10,48 @@
 <body>
   <div class="box">
     <header>
-      <img src="/images/instagram_logo.png" alt="Instagram logo" id="logo" />
+      <img src="./images/instagram_logo.png" alt="Instagram logo" id="logo" />
     </header>
 
     <form>
       <input type="text" placeholder="Phone number, username or email address" class="text-input"><br>
       <input type="password" placeholder="Password" class="text-input"><br>
-      <input type="checkbox" id="save-info"><label for="save-info">Save login info</label><br>
-
+      <div class="save-info">
+        <input type="checkbox" id="save-info-input">
+        <label for="save-info">Save login info</label><br>
+      </div> 
       <button>Log in</button>
     </form>
 
     <div class="divider">
-      <span class="line"></span>
-      <span>OR</span>
-      <span class="line"></span>
+      <div class="line"></div>
+      <span id="or">OR</span>
+      <div class="line"></div>
     </div>
 
-    <a href="#" id="">
-      <img src="/images/facebook_icon.png"/>
+    <a href="#" id="facebook-login">
+      <img src="./images/facebook_icon.png" id="facebook-logo"/>
       Log in with Facebook
     </a>
 
     <br>
 
-    <a href="#">Forgotten your password?</a>
+    <a href="#" id="forgot-password">Forgotten your password?</a>
   </div>
 
   <div class="box">
     <p>Don't have an account? <a href="#">Sign up</a></p>
   </div>
 
-  <p>Get the app.</p>
+  <p class="promotion">Get the app.</p>
 
   <div class="store-links">
     <a href="#">
-      <img id="appstore-img" src="/images/appstore.png"/>
+      <img id="appstore-img" src="./images/appstore.png"/>
     </a>
     
     <a href="#">
-      <img id="googleplay-img" src="/images/googleplay.png"/>
+      <img id="googleplay-img" src="./images/googleplay.png"/>
     </a>
   </div>
 
